@@ -1,9 +1,9 @@
 namespace :bot_twitter do
   client = Twitter::REST::Client.new do |config|
-    config.consumer_key        = "MXSBpmyvecheY79fOHbjWkDHX"
-    config.consumer_secret     = "VpKbURK8Hz1zreZyohZFArjdUVirGnddexAf60UMGVJupSKQg8"
-    config.access_token        = "1016692847117045761-mygagXVGBl7pSLFZOW4sPxB8J2DaCJ"
-    config.access_token_secret = "cha7VtP2fLzSmp3QTt548EKL7xWyFFXlRHRYzfC1U3yzY"
+    config.consumer_key        = ""
+    config.consumer_secret     = ""
+    config.access_token        = ""
+    config.access_token_secret = ""
   end
 
   user = ["@youyoune61","@eddu61"]
