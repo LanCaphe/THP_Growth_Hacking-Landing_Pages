@@ -51,6 +51,9 @@ namespace :bot_mailling do
       end
     end
 
+    USERNAME = ENV["YOUR_EMAIL"]
+    PASSWORD = ENV["YOUR_PASSWORD"]
+
     gmail = Gmail.connect(USERNAME, PASSWORD)
 
         @town_emails.each do |mail|
