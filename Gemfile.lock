@@ -252,6 +252,7 @@ DEPENDENCIES
   capybara (>= 2.15)
   chromedriver-helper
   coffee-rails (~> 4.2)
+  dotenv
   dotenv-rails
   gmail
   jbuilder (~> 2.5)
