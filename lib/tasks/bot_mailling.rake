@@ -63,12 +63,12 @@ namespace :bot_mailling do
           html_part do
           content_type 'text/html; charset=UTF-8'
             body "<p>Bonjour,<br>
-              Je m'appelle Edouard, je suis élève à The Hacking Project, une formation au code gratuite,
+              Je nous sommes des élèves de The Hacking Project, une formation au code gratuite,
               sans locaux, sans sélection, sans restriction géographique.<br></p>
+              <p>Pour plus d'information cliquer sur ce <a href="SITE">lien</a><br></p>
               <p>Charles, co-fondateur de The Hacking Project pourra répondre à toutes vos questions : 06.95.46.60.80</p>"
           end
              sleep(60)
-             puts "Message envoyer à #{mail}"
           end
         end
      gmail.logout
