@@ -12,3 +12,40 @@
  *
 */
  @import "bootstrap";
+ @import url('https://fonts.googleapis.com/css?family=Lato|Passion+One');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+/* FONTS */
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #f1f1f1;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Passion One', cursive
+}
+
+/* LINKS */
+
+a {
+    text-decoration: none;
+    color: inherit
+}
+
+ul {
+    list-style-type: none;
+    padding: 0
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto
+}
